@@ -10,6 +10,7 @@ def nyc_pigeon_organizer (data)
   end 
   
   x = final.keys
+  
   data[:color].each do |bird_color, name|
     name.each do |bird_name|
       x.each do |item|
@@ -19,6 +20,7 @@ def nyc_pigeon_organizer (data)
       end 
     end 
   end 
+  
   data[:gender].each do |gender, type|
     type.each do |bird_name|
       x.each do |item|
@@ -28,6 +30,7 @@ def nyc_pigeon_organizer (data)
       end 
     end 
   end 
+  
   data[:lives].each do |location, name|
     name.each do |bird_name|
       x.each do |item|
